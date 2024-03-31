@@ -211,8 +211,4 @@ class TextAnalyzer:
 
         print(f'Saved scores and readability metrics to {output_excel_file}')
 
-# Example usage
-if __name__ == "__main__":
-    analyzer = TextAnalyzer()
-    analyzer.process_urls_from_excel('Input.xlsx')
-    analyzer.save_results_to_excel()
+
